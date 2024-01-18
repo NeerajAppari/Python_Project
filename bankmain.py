@@ -3,45 +3,29 @@ from entlog import *
 def bankm():
     
 
-    print("_"*97)
-    print("~"*97)
-    print("~\t\t\t\t WELCOME TO INKAT BANKING APP \t\t\t\t\t~")
-    print("~"*97)
-    print("_"*97)
-    print("\t\t\t\t\t\t\t\t\t\t(note:This app is only for employees)")
+    print("_"*57)
+    print("~"*57)
+    print("~\t\t WELCOME TO INKAT BANKING APP\t\t~")
+    print("~"*57)
+    print("_"*57)
 
-    print("\t\t\tTYPE 1 TO CREATE AN ACCOUNT")
-    print("\t\t\tTYPE 2 TO LOGIN\t\t(To proceed making an account for customer)")
-    print("\t\t\tTYPE 3 TO EXIT")
-    print("\t\t\tTYPE 4 TO KNOW MORE ABOUT")
+    print("press 1 to create an account")
+    print("press 2 to login")
+    print("press 3 to exit")
 
-    opt=input("[1/2/3/4:]")
+    opt=input("[1/2/3:]")
 
     if opt=='1':
-        print()
-        print("\t\t\tProceding To Create An Account")
+        print("To create account")
         newac()
     elif opt=='2':
-        print()
-        print("\t\t\tProceding to logging into exixting account")
+        print("To log into exixting account")
         chklog()
         
     elif opt=='3':
-        print()
-        print("Exiting")
-        exit()
-
-    elif opt=='4':
-        print()
-        print("*"*80)
-        print("\t\tFirst you have to create an account,if you dont already have one")
-        print("\t\tAfter creating account you can proceed to making account for customer")
-        print("\t\tYou can update,delete as well check for transactions")
-        print("*"*80)
-        bankm()
+        print("to exit")
     else:
-        print()
-        print("Wrong Input Please Choose Options Again")
+        print("wrong input please choose options again")
         bankm()
 
         
