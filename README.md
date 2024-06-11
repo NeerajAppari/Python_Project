@@ -1,1 +1,1 @@
-Python CLI project. Uses files to save everything. There are series of files all of different timeline.
+Python CLI project. Uses files to save everything. There are series of files all of different timeline. It has Login and Password, Customer Account, Employee Account, Deposit, Withdraw, Transaction History and Check Balance.
